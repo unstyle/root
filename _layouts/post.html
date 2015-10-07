@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - learn, learn, learn, died{% endif %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | prepend: site.baseurl }}"/>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <article class="hentry post">
+      	  <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      	  <div class="post-meta">
+      	  	{{ page.date | date: "%B %d, %Y" }}
+      	  	{% if page.author %}
+      	  	  {{ page.author }}
+      	  	{% endif %}
+      	  	{% if page.meta %}
+      	  	  {{ page.meta }}
+      	  	{% endif %}
+      	  </div>
+      	  <div class="post-content">{{ content }}</div>
+      	</article>
+      </div>
+    </div>
+  </body>
+</html>
