@@ -3,12 +3,10 @@ title: Unstyle
 description: learn, learn, learn, died
 
 
-baseurl: ""
+baseurl: "/root"
 url: "unstyle.github.io/root"
 
 timezone: Asia/Jakarta
-
-
 
 markdown: kramdown
 
