@@ -11,15 +11,13 @@
   </head>
   <body>
     <div class="wrapper">
-      <ul class="entry">
+      <div class="hentry post">
         {% for post in site.posts %}
-          <li class="post">
-            <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
-            <div class="post-content">{{ post.content | strip_html | truncatewords:50 }}</div>
-          </li>
+          <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+          <div class="post-content">{{ post.content | strip_html | truncatewords:50 }}</div>
         {% endfor %}
-      </ul>
+      </div>
     </div>
   </body>
 </html>
