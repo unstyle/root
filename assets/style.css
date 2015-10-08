@@ -1,4 +1,15 @@
-@import url(http://unstyle.cf/0.1/fonts/raleway.css);
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://unstyle.cf/0.1/fonts/raleway.eot');
+  src: local('Raleway'),
+    url('http://unstyle.cf/0.1/fonts/raleway.woff') format('woff'),
+    url('http://unstyle.cf/0.1/fonts/raleway.svg#Raleway') format('svg'),
+    url('http://unstyle.cf/0.1/fonts/raleway.eot?#iefix') format('embedded-opentype'),
+    url('http://unstyle.cf/0.1/fonts/raleway.ttf') format('truetype')
+}
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
