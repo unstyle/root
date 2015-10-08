@@ -14,12 +14,14 @@
       <div class="sidebar">
         {{ site.description }}
       </div>
+      <div class="content">
       <div class="hentry post">
         {% for post in site.posts %}
           <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
           <div class="post-content">{{ post.content | strip_html | truncatewords:50 }}</div>
         {% endfor %}
+      </div>
       </div>
     </div>
   </body>
