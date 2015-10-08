@@ -2,12 +2,12 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url('http://unstyle.cf/0.1/fonts/raleway.eot');
+  src: url('fonts/raleway.eot');
   src: local('Raleway'),
-    url('http://unstyle.cf/0.1/fonts/raleway.woff') format('woff'),
-    url('http://unstyle.cf/0.1/fonts/raleway.svg#Raleway') format('svg'),
-    url('http://unstyle.cf/0.1/fonts/raleway.eot?#iefix') format('embedded-opentype'),
-    url('http://unstyle.cf/0.1/fonts/raleway.ttf') format('truetype')
+    url('fonts/raleway.woff') format('woff'),
+    url('fonts/raleway.svg#Raleway') format('svg'),
+    url('fonts/raleway.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway.ttf') format('truetype')
 }
 
 *, *:before, *:after {
