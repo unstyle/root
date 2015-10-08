@@ -1,9 +1,10 @@
+@import url(http://unstyle.cf/0.1/fonts/raleway.css);
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
 }
-@import url(http://unstyle.github.io/0.1/fonts/raleway.css);
+
 html {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
